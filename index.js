@@ -19,7 +19,7 @@ const BUCKET_NAME = 'sops3bucket';//Bucket name
 //Accesinbg bucket using aws credentials
 const s3 = new AWS.S3({
     accessKeyId: ID,
-    secretAccessKey: SECRET
+    secretAccessKey: SECRET  
 });
 
 var routes = require('./app/route/approutes.js'); //importing route
